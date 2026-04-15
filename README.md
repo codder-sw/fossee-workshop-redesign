@@ -1,16 +1,25 @@
-# FOSSEE Workshop Booking Redesign
+FOSSEE Workshop Booking Redesign
+Design Strategy
 
-## 📱 My Design Strategy
-Mainne is project ko "Mobile-First" approach se redesign kiya hai kyunki zyada tar students apne phone se workshops check karte hain.
+This project follows a mobile-first approach, as most students typically browse and explore workshops using their smartphones. The goal was to ensure a seamless and intuitive experience across all devices, especially mobile.
 
-### Key Features:
-1. **Responsive Navbar:** Desktop par links side mein hain, aur mobile par stack ho jate hain (UX Improvement).
-2. **Card-based Layout:** Workshops ko cards mein dikhaya hai taki information saaf dikhe.
-3. **Accessibility:** - High contrast colors (Dark Blue & White) use kiye hain readability ke liye.
-   - Buttons ko bada rakha hai taki mobile touch asaan ho.
-4. **Clean Code:** Maine extra libraries (like Bootstrap) avoid ki hain taki site fast load ho (Performance).
+Key Features
 
-### How to Run:
-1. `cd frontend`
-2. `npm install`
-3. `npm start`
+Responsive Navigation Bar
+On desktop screens, navigation links are aligned horizontally, while on mobile devices they stack vertically for improved usability and a cleaner interface.
+Card-Based Layout
+Workshops are displayed using a card-based design, allowing information to be presented in a clear, organized, and visually appealing manner.
+Accessibility Enhancements
+High-contrast color scheme (dark blue and white) has been used to improve readability.
+Buttons are designed with larger touch targets, making them easier to interact with on mobile devices.
+Clean and Efficient Code
+The project avoids unnecessary external libraries (such as Bootstrap) to ensure faster load times and better overall performance.
+
+
+How to Run the Project
+Navigate to the project directory:
+cd frontend
+Install dependencies:
+npm install
+Start the development server:
+npm start
